@@ -81,7 +81,7 @@ export default function WorkExperience() {
                         <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-surface-light dark:bg-surface-dark border-4 border-gray-300 dark:border-slate-600 -translate-x-[7px] md:-translate-x-1/2 mt-1.5 group-hover:border-primary transition-colors z-10"></div>
 
                         <div className="md:w-1/2 md:pr-12">
-                            <div className="glass-panel p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow hover:-translate-x-2 duration-300">
+                            <div className="glass-panel p-6 rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-x-2 duration-300 border-r-4 border-r-primary">
                                 {/* Company & Location */}
                                 <div className="flex flex-wrap items-center gap-4 mb-4 text-xs text-text-sub-light dark:text-text-sub-dark">
                                     <div className="flex items-center gap-1.5">
@@ -126,7 +126,7 @@ export default function WorkExperience() {
                         <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-surface-light dark:bg-surface-dark border-4 border-gray-300 dark:border-slate-600 -translate-x-[7px] md:-translate-x-1/2 mt-1.5 group-hover:border-primary transition-colors z-10"></div>
 
                         <div className="md:w-1/2 md:pl-12">
-                            <div className="glass-panel p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow hover:translate-x-2 duration-300">
+                            <div className="glass-panel p-6 rounded-xl shadow-sm hover:shadow-md transition-all hover:translate-x-2 duration-300 border-l-4 border-l-primary">
                                 <ul className="text-text-sub-light dark:text-text-sub-dark text-sm leading-relaxed space-y-3">
                                     <li className="flex gap-2">
                                         <span className="text-primary mt-0.5 shrink-0">▹</span>
